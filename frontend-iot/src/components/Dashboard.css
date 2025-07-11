@@ -1,0 +1,58 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+    background-color: #f4f7fb;
+    padding: 2rem;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}

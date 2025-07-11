@@ -1,0 +1,3 @@
+[submodule "backend-iot"]
+	path = backend-iot
+	url = https://github.com/christiancass/iot-fog.git
